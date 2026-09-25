@@ -6,15 +6,23 @@ A responsive, front-end ecommerce storefront for a curated home, wear, and objec
 
 Open `index.html` in a browser. No build tools or dependencies are required. Product photography and web fonts load from external services, so an internet connection improves the experience.
 
+## Project structure
+
+- `index.html` — home page and GitHub Pages entry point
+- `pages/` — shop, product, cart, login, seller, and about pages
+- `assets/css/` — shared storefront styles and page layouts
+- `assets/js/` — shared catalog, cart, account, seller, and recommendation logic
+- `README.md` — project notes and setup
+
 ## Pages
 
 - `index.html` — home and featured collection
-- `shop.html` — searchable, filterable product catalog
-- `product.html?id=1` — product detail (the ID selects the product)
-- `cart.html` — persistent shopping bag and order summary
-- `about.html` — brand story and values
-- `login.html` — customer or seller demo account registration and sign-in
-- `seller.html` — seller-only product listing studio
+- `pages/shop.html` — searchable, filterable product catalog
+- `pages/product.html?id=1` — product detail (the ID selects the product)
+- `pages/cart.html` — persistent shopping bag and order summary
+- `pages/about.html` — brand story and values
+- `pages/login.html` — customer or seller demo account registration and sign-in
+- `pages/seller.html` — seller-only product listing studio
 
 ## Included
 
